@@ -13,8 +13,8 @@ vars:
 
 modules:
   activate:
-  - Lab 01: Introduction-to-Azure-Portal
-  - Lab 02: Deploying-OpenShift-cluster-using-ARM-templates
-  - Lab 03: Deploying-workload-on-Openshift
-  - Lab 04: Integration-of-ACR- with-OpenShift
-  - Lab 05: Additional-Labs
+  - Lab01
+  - Lab02
+  - Lab03
+  - Lab04
+  - Lab05
