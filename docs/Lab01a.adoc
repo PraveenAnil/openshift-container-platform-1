@@ -73,7 +73,7 @@ Note : At the first login, you may have to change the password, if asked for.
 
 3. Now, you will be directed to the *Azure Dashboard*."image:../images/6azure_dashboard.jpg[Azure Dashboard]
 
-4. *Click* on *Microsoft Azure* at the top left corner of the screen, to view the Dashboard. "image:../images/7microsoftazure.jpg[Microsoft Azure]
+4. *Click* on *Microsoft Azure* at the top left corner of the screen, to view the Dashboard. image:../images/7microsoftazure.jpg[Microsoft Azure]
 
 5. To toggle *show/hide* the Portal menu options with icon, *Click* on the *Show Menu* button."image:../images/8azure_menu.jpg[Azure Menu]
 
