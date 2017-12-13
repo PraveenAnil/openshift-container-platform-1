@@ -52,63 +52,58 @@ Exercise 00: Sign Up for pre configured environment
 
 In this exercise, you will create a source environment.
 
-1.  *Navigate* to training portal
-https://experience-azure.azurewebsites.net and register by providing all
-required information and *clicking* on *SUBMIT button*.
-image:../images/2odl_register.jpg[Training Portal Register1]
-2.  Once registration is accepted, you will be automatically redirected
-to the lab activation page. Now, it is advised to save a copy of the URL
-on the browser, which has the activation id. *Click* on the *Launch Lab*
-button. image:../images/2odl_register2.jpg[Training Portal Register2]
+1.  *Navigate* to training portal https://experience-azure.azurewebsites.net and register by providing all required information and *clicking* on *SUBMIT button*.
+
+"image:../images/2odl_register.jpg[Training Portal Register1]
+
+2.  Once registration is accepted, you will be automatically redirected to the lab activation page. Now, it is advised to save a copy of the URL on the browser, which has the activation id. *Click* on the *Launch Lab* button.
+
+"image:../images/2odl_register2.jpg[Training Portal Register2]
+
 3.  You will see the environment details soon below.
-image:../images/2odl_register3.jpg[Training Portal Register3] Please
-ensure to take the values assigned to your deployment.
+
+"image:../images/2odl_register3.jpg[Training Portal Register3] 
+
+Please ensure to take the values assigned to your deployment.
 
 [[exercise-01-log-into-your-azure-portal-and-verify-access-to-the-subscription]]
 Exercise 01: Log into your Azure Portal and Verify access to the Subscription
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In this exercise, you will log into the *Azure Portal* using your Azure
-credentials and you will verify the type of role you are assigned in
-this Subscription.
+In this exercise, you will log into the *Azure Portal* using your Azure credentials and you will verify the type of role you are assigned in this Subscription.
 
-1.  *Launch* a browser in InPrivate/Incognito mode and *Navigate* to
-https://portal.azure.com. Provide the credentials that you received via
-email. Click on *Sign In*.
+1.  *Launch* a browser in InPrivate/Incognito mode and *Navigate* to https://portal.azure.com. Provide the credentials that you received via email. Click on *Sign In*.
 
-image:../images/3azure_login.jpg[Azure Login]
-image:../images/3azure_login1.jpg[Azure Login]
+"image:../images/3azure_login.jpg[Azure Login]
+"image:../images/3azure_login1.jpg[Azure Login]
 
 ....
 Note : At the first login, you may have to change the password, if asked for.
 ....
 2.  *Enter* a new *password*. Then select *Update password and sign in*.
 
-image:../images/4update_password.jpg[Azure Login]
+"image:../images/4update_password.jpg[Azure Login]
 
 3.  Now, you will be directed to the *Azure Dashboard*
 
-image:../images/6azure_dashboard.jpg[Azure Dashboard]
+"image:../images/6azure_dashboard.jpg[Azure Dashboard]
 
-4.  *Click* on *Microsoft Azure* at the top left corner of the screen,
-to view the Dashboard.
+4.  *Click* on *Microsoft Azure* at the top left corner of the screen, to view the Dashboard.
 
-image:../images/7microsoftazure.jpg[Microsoft Azure]
+"image:../images/7microsoftazure.jpg[Microsoft Azure]
 
-5.  To toggle *show/hide* the Portal menu options with icon, *Click* on
-the *Show Menu* button.
+5.  To toggle *show/hide* the Portal menu options with icon, *Click* on the *Show Menu* button.
 
-image:../images/8azure_menu.jpg[Azure Menu]
+"image:../images/8azure_menu.jpg[Azure Menu]
 
-6.  *Click* on the *Resource groups* button in the *Menu navigation* bar
-to view the *Resource groups* blade.
+6.  *Click* on the *Resource groups* button in the *Menu navigation* bar to view the *Resource groups* blade.
 
 "image:../images/9resourcegroup.jpg[Resource Group]
 
 7.  You will see a *Resource Group* which you have access to, *click* on
 it.
 
-image:../images/10select_rg.jpg[Select RG]
+"image:../images/10select_rg.jpg[Select RG]
 
 ....
 Note:
@@ -118,12 +113,11 @@ The Resource Group shown here is for demo purpose only. Actual name of the Resou
 8.  From the *Resource Group* blade that come up, *Select* the Access
 Control ( IAM ) which is on the left side of the blade.
 
-image:../images/11access_control.jpg[Access Control]
+"image:../images/11access_control.jpg[Access Control]
 
-9.  In the new blade that come up, you can see the *role* that is
-assigned to you.
+9.  In the new blade that come up, you can see the *role* that is assigned to you.
 
-image:../images/12role.jpg[Role]
+"image:../images/12role.jpg[Role]
 
 [[option-2-using-own-subscription-and-configuring-the-environment]]
 Option 2: Using own Subscription and configuring the Environment
@@ -139,43 +133,37 @@ Time Estimate
 Exercise 00: Log into your Azure Portal and deploy the pre-requisite environment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In this exercise, you will log into the *Azure Portal* using your Azure
-credentials and you will deploy the pre-requisite environment.
+In this exercise, you will log into the *Azure Portal* using your Azure credentials and you will deploy the pre-requisite environment.
 
 1.  *Launch* a browser and *Navigate* to https://portal.azure.com.
 Provide the credentials that you received via email. Click on *Sign In*.
 
-image:../images/3azure_login2.jpg[Azure Login]
-image:../images/3azure_login3.jpg[Azure Login]
+"image:../images/3azure_login2.jpg[Azure Login]
+"image:../images/3azure_login3.jpg[Azure Login]
 
 2.  Now, you will be directed to the *Azure Dashboard*
 
-image:../images/5azure_dashboard.jpg[Azure Dashboard]
+"image:../images/5azure_dashboard.jpg[Azure Dashboard]
 
-3.  *Click* on *Microsoft Azure* at the top left corner of the screen,
-to view the Dashboard.
+3.  *Click* on *Microsoft Azure* at the top left corner of the screen, to view the Dashboard.
 
-image:../images/7microsoftazure.jpg[Microsoft Azure]
+"image:../images/7microsoftazure.jpg[Microsoft Azure]
 
-4.  To toggle *show/hide* the Portal menu options with icon, *Click* on
-the *Show Menu* button.
+4.  To toggle *show/hide* the Portal menu options with icon, *Click* on the *Show Menu* button.
 
-image:../images/8azure_menu.jpg[Azure Menu]
+"image:../images/8azure_menu.jpg[Azure Menu]
 
-5.  *Click* on the *Azure Active Directory* button in the *Menu
-navigation* bar to view the *Azure Active Directory* blade.
+5.  *Click* on the *Azure Active Directory* button in the *Menu navigation* bar to view the *Azure Active Directory* blade.
 
-image:../images/14selectazure_ad.jpg
+"image:../images/14selectazure_ad.jpg
 
-6.  You will be directed to the Azure Active Directory blade, *click* on
-*App registrations*.
+6.  You will be directed to the Azure Active Directory blade, *click* on *App registrations*.
 
-image:../images/15app_reg.jpg
+"image:../images/15app_reg.jpg
 
-7.  In the next blade, *click* on *New Application Registration* on top
-of the blade.
+7.  In the next blade, *click* on *New Application Registration* on top of the blade.
 
-image:../images/16new_appreg.jpg
+"image:../images/16new_appreg.jpg
 
 8.  In the *Create* blade, *configure* as follows:
 
@@ -189,27 +177,24 @@ Note: We will change this value later during the lab.
 
 And then *click* on *Create*.
 
-image:../images/17createapp.jpg
+"image:../images/17createapp.jpg
 
 9.  You will be redirected to the *App registrations* blade. You can
 check the app has been created by typing the App Name in the search
 field.
 
-image:../images/18check_app.jpg
+"image:../images/18check_app.jpg
 
-If the app has been created, you can see it in the results as shown
-above.
+If the app has been created, you can see it in the results as shown above.
 
-10.  Click on the *app* you *created* and you will be directed to the App
-blade.
-11.  Copy the *Application Id* and *save* it in a notepad or any text
-editor for later use.
+10.  Click on the *app* you *created* and you will be directed to the App blade.
+11.  Copy the *Application Id* and *save* it in a notepad or any text editor for later use.
 
-image:../images/19app_id.jpg
+"image:../images/19app_id.jpg
 
 12.  Now, *Click* on *Keys* in the settings blade.
 
-image:../images/20app_key.jpg
+"image:../images/20app_key.jpg
 
 13.  In the *Keys* blade, *configure* as follows:
 
@@ -218,30 +203,25 @@ image:../images/20app_key.jpg
 
 And *Click* on *Save.*
 
-image:../images/21save_key.jpg
+"image:../images/21save_key.jpg
 
-14.  After you click on save, the *key value* will be displayed which is
-the Client Secret. *Copy* the value into the text editor where you saved
-the value of *Application Id* for later use.
+14.  After you click on save, the *key value* will be displayed which is the Client Secret. *Copy* the value into the text editor where you saved the value of *Application Id* for later use.
 
-image:../images/22copy_key.jpg
+"image:../images/22copy_key.jpg
 ....
 Note:
 You will use the above app details for Azure Integration in Lab 02: Exercise 3
 ....
 
-15.  *Click* on the *Resource groups* button in the *Menu navigation* bar
-to view the *Resource groups* blade.
+15.  *Click* on the *Resource groups* button in the *Menu navigation* bar to view the *Resource groups* blade.
 
 "image:../images/9resourcegroup.jpg[Resource Group]
 
-16.  You will be directed to the *Resource groups* blade, *click* on *+
-Add*.
+16.  You will be directed to the *Resource groups* blade, *click* on *+ Add*.
 
 "image:../images/9resourcegroup1.jpg[Resource Group]
 
-17.  In the *Create* blade, *configure* as follows and then *click* on
-*Create*.
+17.  In the *Create* blade, *configure* as follows and then *click* on *Create*.
 
 * Resource Group Name: *(Provide a unique value)*
 * Subscription: *(Select your subscription)*
@@ -249,31 +229,26 @@ Add*.
 
 "image:../images/9resourcegroup2.jpg[Resource Group]
 
-18.  Once the resource group is created, *Click* on the *Resource groups*
-button in the *Menu navigation* bar to view the *Resource groups* blade.
+18.  Once the resource group is created, *Click* on the *Resource groups* button in the *Menu navigation* bar to view the *Resource groups* blade.
 
 "image:../images/9resourcegroup.jpg[Resource Group]
 
-19.  You will see a *Resource Group* which you have created, *click* on
-it.
-20.  From the *Resource Group* blade that come up, *Select* the Access
-Control ( IAM ) which is on the left side of the blade.
+19.  You will see a *Resource Group* which you have created, *click* on it.
+20.  From the *Resource Group* blade that come up, *Select* the Access Control ( IAM ) which is on the left side of the blade.
 
-image:../images/11access_control.jpg[Access Control]
+"image:../images/11access_control.jpg[Access Control]
 
 21.  In the new blade that come up, *click* on *+ Add*.
 
-image:../images/22access_control.jpg[Access Control]
+"image:../images/22access_control.jpg[Access Control]
 
-22.  In the *Add Permissions* blade, *configure* as follows and then
-*click* on *Save*.
+22.  In the *Add Permissions* blade, *configure* as follows and then *click* on *Save*.
 
 * Role: *Contributor*
 * Subscription: *Azure AD user, group, or application*
 * Select: *(Type the name of the app you created before and Select
 that)*
 
-image:../images/22access_control1.jpg[Access Control]
+"image:../images/22access_control1.jpg[Access Control]
 
-https://github.com/SpektraSystems/openshift-container-platform/blob/master/README.md[<Previous]
-/ link:/docs/Lab%2002.md[Next>]
+https://github.com/SpektraSystems/openshift-container-platform/blob/master/README.md[<Previous] / link:/docs/Lab%2002.md[Next>]
