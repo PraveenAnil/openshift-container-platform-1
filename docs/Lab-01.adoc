@@ -45,8 +45,8 @@ Exercise 00: Sign Up for pre configured environment
 
 In this exercise, you will create a source environment. 1. *Navigate* to
 training portal https://experience-azure.azurewebsites.net and register
-by providing all required information and *clicking* on *SUBMIT button*.
-image:../images/2odl_register.jpg[Training Portal Register1]
+by providing all required information and *clicking* on **SUBMIT
+button**. image:../images/2odl_register.jpg[Training Portal Register1]
 
 1.  Once registration is accepted, you will be automatically redirected
 to the lab activation page. Now, it is advised to save a copy of the URL
@@ -65,7 +65,7 @@ In this exercise, you will log into the *Azure Portal* using your Azure
 credentials and you will verify the type of role you are assigned in
 this Subscription. 1. *Launch* a browser in InPrivate/Incognito mode and
 *Navigate* to https://portal.azure.com. Provide the credentials that you
-received via email. Click on *Sign In*.
+received via email. Click on **Sign In**.
 
 image:../images/3azure_login.jpg[Azure Login]
 image:../images/3azure_login1.jpg[Azure Login]
@@ -74,7 +74,8 @@ image:../images/3azure_login1.jpg[Azure Login]
 Note : At the first login, you may have to change the password, if asked for.
 ....
 
-1.  *Enter* a new *password*. Then select *Update password and sign in*.
+1.  *Enter* a new **password**. Then select **Update password and sign
+in**.
 
 image:../images/4update_password.jpg[Azure Login]
 
@@ -121,7 +122,7 @@ image:../images/12role.jpg[Role]
 Option 2: Using own Subscription and configuring the Environment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-[[time-estimate]]
+[[time-estimate-1]]
 Time Estimate
 ^^^^^^^^^^^^^
 
@@ -135,7 +136,7 @@ environment
 In this exercise, you will log into the *Azure Portal* using your Azure
 credentials and you will deploy the pre-requisite environment. 1.
 *Launch* a browser and *Navigate* to https://portal.azure.com. Provide
-the credentials that you received via email. Click on *Sign In*.
+the credentials that you received via email. Click on **Sign In**.
 
 image:../images/3azure_login2.jpg[Azure Login]
 image:../images/3azure_login3.jpg[Azure Login]
@@ -157,7 +158,7 @@ image:../images/8azure_menu.jpg[Azure Menu]
 1.  *Click* on the *Azure Active Directory* button in the *Menu
 navigation* bar to view the *Azure Active Directory* blade.
 2.  You will be directed to the Azure Active Directory blade, *click* on
-*App registrations*.
+**App registrations**.
 3.  In the next blade, *click* on *New Application Registration* on top
 of the blade.
 4.  In the *Create* blade, *configure* as follows:
@@ -170,7 +171,7 @@ of the blade.
 Note: We will change this value later during the lab.
 ....
 
-And then *click* on *Create*.
+And then *click* on **Create**.
 
 1.  You will be redirected to the *App registrations* blade. You can
 check the app has been created by typing the App Name in the search
@@ -202,11 +203,16 @@ You will use the above app details for Azure Integration in Lab 02: Exercise 3
 
 1.  *Click* on the *Resource groups* button in the *Menu navigation* bar
 to view the *Resource groups* blade.
+
 “image:../images/9resourcegroup.jpg[Resource Group]
-2.  You will be directed to the *Resource groups* blade, *click* on *+
-Add*. “image:../images/9resourcegroup1.jpg[Resource Group]
-3.  In the *Create* blade, *configure* as follows and then *click* on
-*Create*.
+
+1.  You will be directed to the *Resource groups* blade, *click* on **+
+Add**.
+
+“image:../images/9resourcegroup1.jpg[Resource Group]
+
+1.  In the *Create* blade, *configure* as follows and then *click* on
+**Create**.
 
 * Resource Group Name: *(Provide a unique value)*
 * Subscription: *(Select your subscription)*
@@ -226,12 +232,12 @@ Control ( IAM ) which is on the left side of the blade.
 
 image:../images/11access_control.jpg[Access Control]
 
-1.  In the new blade that come up, *click* on *+ Add*.
+1.  In the new blade that come up, *click* on **+ Add**.
 
 image:../images/22access_control.jpg[Access Control]
 
 1.  In the *Add Permissions* blade, *configure* as follows and then
-*click* on *Save*.
+*click* on **Save**.
 
 * Role: *Contributor*
 * Subscription: *Azure AD user, group, or application*
