@@ -15,6 +15,6 @@ modules:
   activate:
   - Lab01
   - Lab02
-  - Lab0
+  - Lab03
   - Lab04
   - Lab05
