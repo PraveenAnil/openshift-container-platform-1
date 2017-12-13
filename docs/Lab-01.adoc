@@ -52,19 +52,11 @@ Exercise 00: Sign Up for pre configured environment
 
 In this exercise, you will create a source environment.
 
-1.  *Navigate* to training portal https://experience-azure.azurewebsites.net and register by providing all required information and *clicking* on *SUBMIT button*.
+1.  *Navigate* to training portal https://experience-azure.azurewebsites.net and register by providing all required information and *clicking* on *SUBMIT button*."image:../images/2odl_register.jpg[Training Portal Register1]
 
-"image:../images/2odl_register.jpg[Training Portal Register1]
+2. Once registration is accepted, you will be automatically redirected to the lab activation page. Now, it is advised to save a copy of the URL on the browser, which has the activation id. *Click* on the *Launch Lab* button."image:../images/2odl_register2.jpg[Training Portal Register2]
 
-2. Once registration is accepted, you will be automatically redirected to the lab activation page. Now, it is advised to save a copy of the URL on the browser, which has the activation id. *Click* on the *Launch Lab* button.
-
-"image:../images/2odl_register2.jpg[Training Portal Register2]
-
-3. You will see the environment details soon below.
-
-"image:../images/2odl_register3.jpg[Training Portal Register3] 
-
-Please ensure to take the values assigned to your deployment.
+3. You will see the environment details soon below."image:../images/2odl_register3.jpg[Training Portal Register3] Please ensure to take the values assigned to your deployment.
 
 [[exercise-01-log-into-your-azure-portal-and-verify-access-to-the-subscription]]
 Exercise 01: Log into your Azure Portal and Verify access to the Subscription
@@ -179,15 +171,10 @@ And then *click* on *Create*.
 
 "image:../images/17createapp.jpg[Resource Group]
 
-9.  You will be redirected to the *App registrations* blade. You can
-check the app has been created by typing the App Name in the search
-field.
-
-"image:../images/18check_app.jpg[Resource Group]
-
-If the app has been created, you can see it in the results as shown above.
+9.  You will be redirected to the *App registrations* blade. You can check the app has been created by typing the App Name in the search field."image:../images/18check_app.jpg[Resource Group]If the app has been created, you can see it in the results as shown above.
 
 10.  Click on the *app* you *created* and you will be directed to the App blade.
+
 11.  Copy the *Application Id* and *save* it in a notepad or any text editor for later use.
 
 "image:../images/19app_id.jpg[Resource Group]
