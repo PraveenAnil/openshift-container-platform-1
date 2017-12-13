@@ -14,25 +14,23 @@ config:
       value: <url>
       
 modules:
-  Lab01:
+  Lab01a:
     name: Lab 1
     vars:
       USER_NAME:
-  Lab02:
+  Lab02a:
     name: Lab 2
     vars:
       GIT_HOST:
-  Lab03:
+  Lab03a:
     name: Lab 3
     vars:
       USER_NAME:
-  Lab04:
+  Lab04a:
     name: Lab 4
     vars:
       GIT_HOST:
-  Lab05:
+  Lab05a:
     name: Lab 5
     vars:
       USER_NAME:
-
-      
