@@ -18,8 +18,21 @@ modules:
     name: First part of the lab documentation
     vars:
       USER_NAME:
-  part2:
+  Lab 02: Deploying-OpenShift-cluster-using-ARM-templates:
     name: The second and more important part
     vars:
       GIT_HOST:
+  Lab 03: Deploying-workload-on-Openshift:
+    name: First part of the lab documentation
+    vars:
+      USER_NAME:
+  Lab 04: Integration-of-ACR- with-OpenShift:
+    name: The second and more important part
+    vars:
+      GIT_HOST:
+  Lab 05: Additional-Labs:
+    name: First part of the lab documentation
+    vars:
+      USER_NAME:
+
       
