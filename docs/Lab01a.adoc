@@ -169,4 +169,4 @@ You will use the above app details for Azure Integration in Lab 02: Exercise 3
 * Select: *(Type the name of the app you created before and Select
 that)* "image:../images/22access_control1.jpg[Access Control]
 
-https://github.com/SpektraSystems/openshift-container-platform/blob/master/README.md[<Previous] / link:/docs/Lab%2002.md[Next>]
+https://github.com/SpektraSystems/openshift-container-platform/blob/master/README.md[<Previous] / link:/docs/Lab%2002a.adoc[Next>]
