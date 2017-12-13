@@ -203,4 +203,4 @@ You will use the above app details for Azure Integration in Lab 02: Exercise 3
 ![Access Control](../images/22access_control1.jpg)
 
 [<Previous](https://github.com/SpektraSystems/openshift-container-platform/blob/master/README.md) /
-[Next>](/docs/Lab%2001.md)
+[Next>](/docs/Lab%2002.md)
