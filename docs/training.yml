@@ -13,8 +13,8 @@ vars:
 
 modules:
   activate:
-  - Lab01
-  - Lab02
-  - Lab03
-  - Lab04
-  - Lab05
+  - Lab01.md
+  - Lab02.md
+  - Lab03.md
+  - Lab04.md
+  - Lab05.md
