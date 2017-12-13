@@ -14,23 +14,23 @@ config:
       value: <url>
       
 modules:
-  Lab 01: Introduction-to-Azure-Portal:
+  Lab01:
     name: First part of the lab documentation
     vars:
       USER_NAME:
-  Lab 02: Deploying-OpenShift-cluster-using-ARM-templates:
+  Lab02:
     name: The second and more important part
     vars:
       GIT_HOST:
-  Lab 03: Deploying-workload-on-Openshift:
+  Lab03:
     name: First part of the lab documentation
     vars:
       USER_NAME:
-  Lab 04: Integration-of-ACR- with-OpenShift:
+  Lab04:
     name: The second and more important part
     vars:
       GIT_HOST:
-  Lab 05: Additional-Labs:
+  Lab05:
     name: First part of the lab documentation
     vars:
       USER_NAME:
