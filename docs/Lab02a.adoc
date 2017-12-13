@@ -178,4 +178,4 @@ Click on the *Reply URLs*.
 
 13.  Once the login is *successful*, you will be redirected to the *OpenShift console*.
 
-link:/docs/Lab%2002a.adoc[<Previous] / link:/docs/Lab%2003a.adoc[Next>]
+link:/docs/Lab02a.adoc[<Previous] / link:/docs/Lab03a.adoc[Next>]
