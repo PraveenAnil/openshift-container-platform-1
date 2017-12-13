@@ -65,11 +65,9 @@ Exercise 01: Log into your Azure Portal and Verify access to the Subscription
 In this exercise, you will log into the *Azure Portal* using your Azure credentials and you will verify the type of role you are assigned in this Subscription.
 
 1. *Launch* a browser in InPrivate/Incognito mode and *Navigate* to https://portal.azure.com. Provide the credentials that you received via email. Click on *Sign In*."image:../images/3azure_login.jpg[Azure Login]"image:../images/3azure_login1.jpg[Azure Login]
-....
-Note : At the first login, you may have to change the password, if asked for.
-....
+```Note : At the first login, you may have to change the password, if asked for```
 
-2. *Enter* a new *password*. Then select *Update password and sign in*."image:../images/4update_password.jpg[Azure Login]
+2. *Enter* a new *password*. Then select *Update password and sign in*. image:../images/4update_password.jpg[Azure Login]
 
 3. Now, you will be directed to the *Azure Dashboard*."image:../images/6azure_dashboard.jpg[Azure Dashboard]
 
