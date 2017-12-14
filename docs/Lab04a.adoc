@@ -32,11 +32,11 @@ Portal]. *Login* with the Microsoft Azure credentials you received via
 email.
 1. Click on *+New* on the left side of the Dashboard.
 
-* image:https://github.com/SpektraSystems/openshift-container-platform/blob/master/images/104az_new.jpg[]
+* image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/104az_new.jpg[]
 
 1. In the *New* blade that come up, Select *Containers*.
 
-* image:https://github.com/SpektraSystems/openshift-container-platform/blob/master/images/105az_containers.jpg[]
+* image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/105az_containers.jpg[]
 
 1. In the *Containers* blade appears. Select *Azure Container
 Registry*.
