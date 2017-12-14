@@ -69,7 +69,8 @@ Exercise 01: Log into your Azure Portal and Verify access to the Subscription
 
 In this exercise, you will log into the *Azure Portal* using your Azure credentials and you will verify the type of role you are assigned in this Subscription.
 
-1. *Launch* a browser in InPrivate/Incognito mode and *Navigate* to https://portal.azure.com. Provide the credentials that you received via email. Click on *Sign In*."image:../images/3azure_login.jpg[Azure Login]"image:../images/3azure_login1.jpg[Azure Login]
+1. *Launch* a browser in InPrivate/Incognito mode and *Navigate* to https://portal.azure.com. Provide the credentials that you received via email. Click on *Sign In*."image:../images/3azure_login.jpg[Azure Login]
++image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/3azure_login1.jpg[Azure Login]
 ```Note : At the first login, you may have to change the password, if asked for```
 
 2. *Enter* a new *password*. Then select *Update password and sign in*. image:../images/4update_password.jpg[Azure Login]
@@ -108,15 +109,19 @@ Exercise 00: Log into your Azure Portal and deploy the pre-requisite environment
 
 In this exercise, you will log into the *Azure Portal* using your Azure credentials and you will deploy the pre-requisite environment.
 
-1.  *Launch* a browser and *Navigate* to https://portal.azure.com. Provide the credentials that you received via email. Click on *Sign In*. "image:../images/3azure_login2.jpg[Azure Login] "image:../images/3azure_login3.jpg[Azure Login]
+1.  *Launch* a browser and *Navigate* to https://portal.azure.com. Provide the credentials that you received via email. Click on *Sign In*.
+
+"image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/3azure_login2.jpg[Azure Login] 
+
+"image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/3azure_login3.jpg[Azure Login]
 
 2.  Now, you will be directed to the *Azure Dashboard* "image:../images/5azure_dashboard.jpg[Azure Dashboard]
 
-3.  *Click* on *Microsoft Azure* at the top left corner of the screen, to view the Dashboard. "image:../images/7microsoftazure.jpg[Microsoft Azure]
+3.  *Click* on *Microsoft Azure* at the top left corner of the screen, to view the Dashboard. "image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/7microsoftazure.jpg[Microsoft Azure]
 
 4.  To toggle *show/hide* the Portal menu options with icon, *Click* on the *Show Menu* button. "image:../images/8azure_menu.jpg[Azure Menu]
 
-5.  *Click* on the *Azure Active Directory* button in the *Menu navigation* bar to view the *Azure Active Directory* blade. "image:../images/14selectazure_ad.jpg[Resource Group]
+5.  *Click* on the *Azure Active Directory* button in the *Menu navigation* bar to view the *Azure Active Directory* blade. "image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/14selectazure_ad.jpg[Resource Group]
 
 6.  You will be directed to the Azure Active Directory blade, *click* on *App registrations*. "image:../images/15app_reg.jpg[Resource Group]
 
@@ -129,40 +134,60 @@ In this exercise, you will log into the *Azure Portal* using your Azure credenti
 ....
 Note: We will change this value later during the lab.
 ....
-And then *click* on *Create*. "image:../images/17createapp.jpg[Resource Group]
+And then *click* on *Create*. "image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/17createapp.jpg[Resource Group]
 
-9.  You will be redirected to the *App registrations* blade. You can check the app has been created by typing the App Name in the search field. "image:../images/18check_app.jpg[Resource Group]If the app has been created, you can see it in the results as shown above.
+9.  You will be redirected to the *App registrations* blade. You can check the app has been created by typing the App Name in the search field.
+
+"image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/18check_app.jpg[Resource Group]
+
+* If the app has been created, you can see it in the results as shown above.
 
 10.  Click on the *app* you *created* and you will be directed to the App blade.
 
-11.  Copy the *Application Id* and *save* it in a notepad or any text editor for later use. "image:../images/19app_id.jpg[Resource Group]
+11.  Copy the *Application Id* and *save* it in a notepad or any text editor for later use.
 
-12.  Now, *Click* on *Keys* in the settings blade. "image:../images/20app_key.jpg[Resource Group]
+"image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/19app_id.jpg[Resource Group]
+
+12.  Now, *Click* on *Keys* in the settings blade. 
+
+"image:.https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/20app_key.jpg[Resource Group]
 
 13.  In the *Keys* blade, *configure* as follows:
 * Description: *key1*
 * Expires: *Never expires*
-And *Click* on *Save.* "image:../images/21save_key.jpg[Resource Group]
+And *Click* on *Save.*
 
-14.  After you click on save, the *key value* will be displayed which is the Client Secret. *Copy* the value into the text editor where you saved the value of *Application Id* for later use. "image:../images/22copy_key.jpg[Resource Group]
+"image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/21save_key.jpg[Resource Group]
+
+14.  After you click on save, the *key value* will be displayed which is the Client Secret. *Copy* the value into the text editor where you saved the value of *Application Id* for later use.
+
+"image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/22copy_key.jpg[Resource Group]
 ....
 Note:
 You will use the above app details for Azure Integration in Lab 02: Exercise 3
 ....
 
-15.  *Click* on the *Resource groups* button in the *Menu navigation* bar to view the *Resource groups* blade. "image:../images/9resourcegroup.jpg[Resource Group]
+15.  *Click* on the *Resource groups* button in the *Menu navigation* bar to view the *Resource groups* blade. 
+
+"image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/9resourcegroup.jpg[Resource Group]
 
 16.  You will be directed to the *Resource groups* blade, *click* on *+ Add*. "image:../images/9resourcegroup1.jpg[Resource Group]
 
 17.  In the *Create* blade, *configure* as follows and then *click* on *Create*.
 * Resource Group Name: *(Provide a unique value)*
 * Subscription: *(Select your subscription)*
-* Resource Group Location: *(Select any Location)* "image:../images/9resourcegroup2.jpg[Resource Group]
+* Resource Group Location: *(Select any Location)* 
 
-18.  Once the resource group is created, *Click* on the *Resource groups* button in the *Menu navigation* bar to view the *Resource groups* blade. "image:../images/9resourcegroup.jpg[Resource Group]
+"image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/9resourcegroup2.jpg[Resource Group]
+
+18.  Once the resource group is created, *Click* on the *Resource groups* button in the *Menu navigation* bar to view the *Resource groups* blade.
+
+"image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/9resourcegroup.jpg[Resource Group]
 
 19.  You will see a *Resource Group* which you have created, *click* on it.
-20.  From the *Resource Group* blade that come up, *Select* the Access Control ( IAM ) which is on the left side of the blade. "image:../images/11access_control.jpg[Access Control]
+20.  From the *Resource Group* blade that come up, *Select* the Access Control ( IAM ) which is on the left side of the blade. 
+
+"image:.https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/11access_control.jpg[Access Control]
 
 21.  In the new blade that come up, *click* on *+ Add*. "image:../images/22access_control.jpg[Access Control]
 
@@ -170,6 +195,8 @@ You will use the above app details for Azure Integration in Lab 02: Exercise 3
 * Role: *Contributor*
 * Subscription: *Azure AD user, group, or application*
 * Select: *(Type the name of the app you created before and Select
-that)* "image:../images/22access_control1.jpg[Access Control]
+that)* 
+
+"image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/22access_control1.jpg[Access Control]
 
 link:/docs/Lab02a.adoc[Next>]
