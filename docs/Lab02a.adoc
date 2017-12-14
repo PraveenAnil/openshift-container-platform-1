@@ -36,10 +36,18 @@ Exercise 00: Create an Azure AD Application
 In this exercise, you will create an Azure AD App and retrieve the
 Client ID and Client secret values.
 
-1.  *Launch* a browser and *Navigate* to https://portal.azure.com.
-*Login* with the Microsoft Azure credentials you received via email.
+1.  *Launch* a browser and *Navigate* to https://portal.azure.com. *Login* with the Microsoft Azure credentials you received via email.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
+
 2.  *Click* on the *Azure Active Directory* button in the *Menu navigation* bar to view the *Azure Active Directory* blade.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
+
 3.  You will be directed to the Azure Active Directory blade, *click* on *App registrations*.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
+
 4.  In the next blade, *click* on *New Application Registration* on top of the blade.
 5.  In the *Create* blade, *configure* as follows:
     * Name: *(Provide a unique value)*
@@ -52,19 +60,35 @@ Client ID and Client secret values.
      And then **click** on **Create**. "image:../images/17createapp.jpg
 
 6.  You will be redirected to the **App registrations** blade. You can check the app has been created by typing the App Name in the search field. <img src="../images/18check_app.jpg"/> If the app has been created, you can see it in the results as shown above.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
+
 7.  Click on the *app* you *created* and you will be directed to the App blade.
 8.  Copy the *Application Id* and *save* it in a notepad or any text editor for later use.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
+
 9.  Now, *Click* on *Keys* in the settings blade.
 10.  In the *Keys* blade, *configure* as follows:
      * Description: *key1*
      * Expires: *Never expires*
-     +
-     ....
-     And **Click** on **Save.** "image:../images/21save_key.jpg
-     ....
+    And **Click** on **Save.** "image:../images/21save_key.jpg
+    +
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
+     
 11.  After you click on save, the *key value* will be displayed which is the Client Secret. *Copy* the value into the text editor where you saved the value of *Application Id* for later use.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
+
 12.  Now go back to the setting blade of the App and Click on **Required permissions.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
+
 13.  Click on *Grant Permissions* in the blade that come up and then *Click* on *Yes*
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
 
 [[exercise-01-create-a-keyvault]]
 Exercise 01: Create a KeyVault
@@ -73,37 +97,49 @@ Exercise 01: Create a KeyVault
 In this exercise, you will configure *Azure Bash Cloud Shell* and create a *Key Vault* in the existing resource group and store the *SSH key* inside the Vault.
 
 1.  *Launch* a browser and *Navigate* to https://portal.azure.com. *Login* with the Microsoft Azure credentials you received via email.
-2.  *Click* on *Cloud Shell* at the top right corner of the screen, to open the cloud shell.
-3.  Then *Click* on *Bash ( Linux )*, and in the next page, *click* on *Show advanced settings*
-4.  In the new blade, select the existing resource group, provide unique names under Create new(Storage account and File share) and *click* on *Create Storage*.
-5.  In a few minutes, the *bash shell* will come up. "image:../images/28bashshell.jpg[bash]
-6.  Now *execute* the following command in the *cloud shell* to create a *key vault* in the existing resource group.
-     `az keyvault create -n <uniquename> -g <ResourceGroup> -l <LocationOfResourceGroup> --enabled-for-template-deployment true`
-    ``` Note: Provide the existing Resource Group name, it’s location and a unique name for key vault in the above command when executing```
-<img src="../images/29create_keyvault_bash.jpg"/>
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
 
-7.  Now *execute* the following command in the *cloud shell* to **generate ssh key. ``` ssh-keygen```
-    ....
+2.  *Click* on *Cloud Shell* at the top right corner of the screen, to open the cloud shell.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
+
+3.  Then *Click* on *Bash ( Linux )*, and in the next page, *click* on *Show advanced settings*
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
+
+4.  In the new blade, select the existing resource group, provide unique names under Create new(Storage account and File share) and *click* on *Create Storage*.
+5.  In a few minutes, the *bash shell* will come up. 
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
+
+6. Now *execute* the following command in the *cloud shell* to create a *key vault* in the existing resource group.
+    az keyvault create -n <uniquename> -g <ResourceGroup> -l <LocationOfResourceGroup> --enabled-for-template-deployment true
+    Note: Provide the existing Resource Group name, it’s location and a unique name for key vault in the above command when executing
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
+
+7.  Now *execute* the following command in the *cloud shell* to **generate ssh key.
+    ssh-keygen
     Note: Keep on clicking enter button until the key has been created. 
-    ....
-    <img src="../images/30generate _ssh.jpg"/>
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
 
 8.  Now **execute** the following command in the cloud shell to display the **public ssh key**. Copy the key into a text editor for later use.
-        ```
-        cat .ssh/id_rsa.pub
-        ```
-        ```
-        Note: The copied SSH Key should be made into a single line. You will need this key for later use.
-        ```
-       <img src="../images/31display_publickey.jpg"/>
+
+    cat .ssh/id_rsa.pub
+    Note: The copied SSH Key should be made into a single line. You will need this key for later use.
+ +
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
 
 9.  Now **execute** the following command to **store** the generated key in the key vault.
-       ```
-       az keyvault secret set --vault-name <keyvaultname> -n osdemovaultsecret --file ~/.ssh/id_rsa
-       ```
-       ```
-       Note: Substitute for key vault name in the above command with the name of the keyvault created earlier when executing.
-       ```<img src="../images/32store_key.jpg"/>
+
+    az keyvault secret set --vault-name <keyvaultname> -n osdemovaultsecret --file ~/.ssh/id_rsa
+    Note: Substitute for key vault name in the above command with the name of the keyvault created earlier when executing.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
 
 ## Exercise 02: Deploy OpenShift Cluster using ARM Template  
 In this exercise, you will deploy the **OpenShift cluster** on Azure using ARM Template.
