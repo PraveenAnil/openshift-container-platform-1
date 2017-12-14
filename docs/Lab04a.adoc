@@ -57,7 +57,7 @@ Resource Group which is already there and select that)
 
 * image:https://github.com/SpektraSystems/openshift-container-platform/blob/master/images/107create_acr.jpg[]
 
-And then *Click* on *Create*.
+* And then *Click* on *Create*.
 
 1.  You can see the status of the *deployment* from the *notifications*
 tab on top of the page.
