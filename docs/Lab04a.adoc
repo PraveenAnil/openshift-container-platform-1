@@ -130,13 +130,11 @@ open the cloud shell.
 1.  Now *execute* the following command. When promted, type *Yes* and
 you will be logged in to the OpenShift Master VM.
 
-....
-ssh ocpadmin@<copiedDNSNameofBastionVM>
-....
 
-....
-Note: Substitute in the above command with the value of copied DNS Name of Bastion VM 
-....
+    ssh ocpadmin@<copiedDNSNameofBastionVM>
+
+
+    Note: Substitute in the above command with the value of copied DNS Name of Bastion VM 
 
 * image:https://github.com/SpektraSystems/openshift-container-platform/blob/master/images/121openshift_cmnd.jpg[]
 
@@ -216,13 +214,10 @@ Note: Substitute for ACR Login Server URI and Username in the above command
 tagged *image* to azure container Registry. Copy the key into a text
 editor for later use.
 
-....
-docker push <ACRLoginServerUri>/sample/todoapp
-....
 
-....
-Note: Substitute for ACRLoginServerUri in the above command
-....
+    docker push <ACRLoginServerUri>/sample/todoapp
+
+    Note: Substitute for ACRLoginServerUri in the above command
 
 * image:https://github.com/SpektraSystems/openshift-container-platform/blob/master/images/129openshift_cmnd.jpg[]
 
