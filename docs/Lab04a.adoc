@@ -27,9 +27,7 @@ Exercise 00: Integrate ACR with OpenShift
 In this exercise, you will deploy an Azure Container Registry and
 integrate it with OpenShift.
 
-1. *Launch* a browser and *Navigate* to https://portal.azure.com[Azure
-Portal]. *Login* with the Microsoft Azure credentials you received via
-email.
+1. *Launch* a browser and *Navigate* to https://portal.azure.com[Azure Portal]. *Login* with the Microsoft Azure credentials you received via email.
 1. Click on *+New* on the left side of the Dashboard.
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/104az_new.jpg[]
@@ -38,22 +36,17 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/105az_containers.jpg[]
 
-1. In the *Containers* blade appears. Select *Azure Container
-Registry*.
+1. In the *Containers* blade appears. Select *Azure Container Registry*.
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/106acr.jpg[]
 
-1. In the *create* blade that come up, *configure* the settings as
-follows:
-+
-Registry name : *uniquename* (This name should be unique across
-Azure.)
-* Subscription : Select the *existing* subscription
-* Resource Group : Choose Use existing and scroll down to see the
-Resource Group which is already there and select that)
-* Location: *South Central US*
-* Admin user: Select *Enable*
-* SKU: *Standard*
+1. In the *create* blade that come up, *configure* the settings as follows:
+Registry name : *uniquename* (This name should be unique across Azure.)
+ * Subscription : Select the *existing* subscription
+ * Resource Group : Choose Use existing and scroll down to see the Resource Group which is already there and select that)
+ * Location: *South Central US*
+ * Admin user: Select *Enable*
+ * SKU: *Standard*
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/107create_acr.jpg[] And then *Click* on *Create*.
 
