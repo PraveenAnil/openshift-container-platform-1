@@ -99,7 +99,6 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 7. You will see a *Resource Group* which you have access to, *click* on it.
 +
 image:../images/10select_rg.jpg[Select RG]
-
 ....
 Note:
 The Resource Group shown here is for demo purpose only. Actual name of the Resouce Group that you see may differ.
@@ -156,8 +155,8 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/15app_reg.jpg[Resource Group]
 
 7.  In the next blade, *click* on *New Application Registration* on top of the blade.
-
-+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/16new_appreg.jpg[Resource Group]
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/16new_appreg.jpg[Resource Group]
 
 8.  In the *Create* blade, *configure* as follows:
 * Name: *(Provide a unique value)*
