@@ -72,7 +72,7 @@ In this exercise, you will log into the *Azure Portal* using your Azure credenti
 
 1. *Launch* a browser in InPrivate/Incognito mode and *Navigate* to https://portal.azure.com. Provide the credentials that you received via email. Click on *Sign In*.
 +
-image:../images/3azure_login.jpg[Azure Login]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/3azure_login.jpg[Azure Login]
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/3azure_login1.jpg[Azure Login]
 
@@ -164,10 +164,10 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 * Name: *(Provide a unique value)*
 * Application type: *Web app/API*
 * Sign-on URL: https://contoso.com
-....
-Note: We will change this value later during the lab.
-....
-And then *click* on *Create*.
+
+    Note: We will change this value later during the lab.
+    
+* And then *click* on *Create*.
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/17createapp.jpg[Resource Group]
 
@@ -188,7 +188,7 @@ image:.https://raw.githubusercontent.com/SpektraSystems/openshift-container-plat
 13.  In the *Keys* blade, *configure* as follows:
 * Description: *key1*
 * Expires: *Never expires*
-And *Click* on *Save.*
+* And *Click* on *Save.*
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/21save_key.jpg[Resource Group]
 
