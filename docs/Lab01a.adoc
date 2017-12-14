@@ -52,11 +52,16 @@ Exercise 00: Sign Up for pre configured environment
 
 In this exercise, you will create a source environment.
 
-1.  *Navigate* to training portal https://experience-azure.azurewebsites.net and register by providing all required information and *clicking* on *SUBMIT button*."image:https://github.com/PraveenAnil/openshift-container-platform-1/blob/master/images/2odl_register.jpg[Training Portal Register1]
+1.  *Navigate* to training portal https://experience-azure.azurewebsites.net and register by providing all required information and *clicking* on *SUBMIT button*. 
++
+image:https://github.com/PraveenAnil/openshift-container-platform-1/blob/master/images/2odl_register.jpg[Training Portal Register1]
 
-2. Once registration is accepted, you will be automatically redirected to the lab activation page. Now, it is advised to save a copy of the URL on the browser, which has the activation id. *Click* on the *Launch Lab* button."image:../images/2odl_register2.jpg[Training Portal Register2]
+2. Once registration is accepted, you will be automatically redirected to the lab activation page. Now, it is advised to save a copy of the URL on the browser, which has the activation id. *Click* on the *Launch Lab* button.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/2odl_register2.jpg[Training Portal Register2]
 
-3. You will see the environment details soon below."image:../images/2odl_register3.jpg[Training Portal Register3] Please ensure to take the values assigned to your deployment.
+3. You will see the environment details soon below.
++image:../images/2odl_register3.jpg[Training Portal Register3] Please ensure to take the values assigned to your deployment.
 
 [[exercise-01-log-into-your-azure-portal-and-verify-access-to-the-subscription]]
 Exercise 01: Log into your Azure Portal and Verify access to the Subscription
