@@ -163,7 +163,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
     Note: Substitute for ACR Login Server URI and Username in the above command
 
 +
-image:hhttps://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/128openshift_cmnd.jpg[]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/128openshift_cmnd.jpg[]
 
 1. Now *execute* the following command in the cloud shell to *push* the tagged *image* to azure container Registry. Copy the key into a text editor for later use.
 
