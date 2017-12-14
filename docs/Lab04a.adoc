@@ -30,7 +30,8 @@ integrate it with OpenShift.
 1.  *Launch* a browser and *Navigate* to https://portal.azure.com[Azure
 Portal]. *Login* with the Microsoft Azure credentials you received via
 email.
-2.  Click on *+New* on the left side of the Dashboard.
+2.  Click on *+New* on the left side of the Dashboard. image:https://github.com/SpektraSystems/openshift-container-platform/blob/master/images/104az_new.jpg[Az New]
+
 
 1.  In the *New* blade that come up, Select *Containers*.
 
