@@ -54,14 +54,14 @@ In this exercise, you will create a source environment.
 
 1.  *Navigate* to training portal https://experience-azure.azurewebsites.net and register by providing all required information and *clicking* on *SUBMIT button*. 
 +
-image:https://github.com/PraveenAnil/openshift-container-platform-1/blob/master/images/2odl_register.jpg[Training Portal Register1]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/2odl_register.jpg[Training Portal Register1]
 
 2. Once registration is accepted, you will be automatically redirected to the lab activation page. Now, it is advised to save a copy of the URL on the browser, which has the activation id. *Click* on the *Launch Lab* button.
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/2odl_register2.jpg[Training Portal Register2]
 
 3. You will see the environment details soon below.
-+image:../images/2odl_register3.jpg[Training Portal Register3] Please ensure to take the values assigned to your deployment.
++image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/2odl_register3.jpg[Training Portal Register3] Please ensure to take the values assigned to your deployment.
 
 [[exercise-01-log-into-your-azure-portal-and-verify-access-to-the-subscription]]
 Exercise 01: Log into your Azure Portal and Verify access to the Subscription
@@ -76,11 +76,11 @@ In this exercise, you will log into the *Azure Portal* using your Azure credenti
 
 3. Now, you will be directed to the *Azure Dashboard*."image:../images/6azure_dashboard.jpg[Azure Dashboard]
 
-4. *Click* on *Microsoft Azure* at the top left corner of the screen, to view the Dashboard. image:../images/7microsoftazure.jpg[Microsoft Azure]
+4. *Click* on *Microsoft Azure* at the top left corner of the screen, to view the Dashboard. image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/7microsoftazure.jpg[Microsoft Azure]
 
 5. To toggle *show/hide* the Portal menu options with icon, *Click* on the *Show Menu* button."image:../images/8azure_menu.jpg[Azure Menu]
 
-6. *Click* on the *Resource groups* button in the *Menu navigation* bar to view the *Resource groups* blade. "image:../images/9resourcegroup.jpg[Resource Group]
+6. *Click* on the *Resource groups* button in the *Menu navigation* bar to view the *Resource groups* blade. "image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/9resourcegroup.jpg[Resource Group]
 
 7. You will see a *Resource Group* which you have access to, *click* on it. "image:../images/10select_rg.jpg[Select RG]
 ....
@@ -88,9 +88,9 @@ Note:
 The Resource Group shown here is for demo purpose only. Actual name of the Resouce Group that you see may differ.
 ....
 
-8. From the *Resource Group* blade that come up, *Select* the Access Control ( IAM ) which is on the left side of the blade. "image:../images/11access_control.jpg[Access Control]
+8. From the *Resource Group* blade that come up, *Select* the Access Control ( IAM ) which is on the left side of the blade. "image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/11access_control.jpg[Access Control]
 
-9. In the new blade that come up, you can see the *role* that is assigned to you. "image:../images/12role.jpg[Role]
+9. In the new blade that come up, you can see the *role* that is assigned to you. "image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/12role.jpg[Role]
 
 [[option-2-using-own-subscription-and-configuring-the-environment]]
 Option 2: Using own Subscription and configuring the Environment
