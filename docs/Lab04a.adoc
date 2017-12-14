@@ -30,15 +30,16 @@ integrate it with OpenShift.
 1.  *Launch* a browser and *Navigate* to https://portal.azure.com[Azure
 Portal]. *Login* with the Microsoft Azure credentials you received via
 email.
-2.  Click on *+New* on the left side of the Dashboard. image:https://github.com/SpektraSystems/openshift-container-platform/blob/master/images/104az_new.jpg[Az New]
+2.  Click on *+New* on the left side of the Dashboard.
 
+image:https://github.com/SpektraSystems/openshift-container-platform/blob/master/images/104az_new.jpg[Az New]
 
-1.  In the *New* blade that come up, Select *Containers*.
+3.  In the *New* blade that come up, Select *Containers*.
 
-1.  In the *Containers* blade appears. Select *Azure Container
+4.  In the *Containers* blade appears. Select *Azure Container
 Registry*.
 
-1.  In the *create* blade that come up, *configure* the settings as
+5.  In the *create* blade that come up, *configure* the settings as
 follows:
 
 * Registry name : *uniquename* (This name should be unique across
@@ -52,49 +53,49 @@ Resource Group which is already there and select that)
 
 And then *Click* on *Create*.
 
-1.  You can see the status of the *deployment* from the *notifications*
+6.  You can see the status of the *deployment* from the *notifications*
 tab on top of the page.
 
-1.  Once the deployment is *successful*, click on Go to resource from
+7.  Once the deployment is *successful*, click on Go to resource from
 the notifications tab.
 
-1.  Now you will be directed to the deployed container registry. Click
+8.  Now you will be directed to the deployed container registry. Click
 on the *Access keys* under Settings section which is on the left side of
 the blade.
 
-1.  Now you will be directed to the *Access keys* blade. Copy the
+9.  Now you will be directed to the *Access keys* blade. Copy the
 *Registry name*, *Login server*, *Username* and *password* to a text
 editor for later use.
 
-1.  Now, open a new tab in a browser and navigate to the OpenShift
+10.  Now, open a new tab in a browser and navigate to the OpenShift
 console url. *Login* into the *OpenShift console* using the credentials
 you received via email by Selecting AzureAD as authentication type.
 
-1.  Now you will be redirected to the *My Projects* page, where you will
+11.  Now you will be redirected to the *My Projects* page, where you will
 select the Project you created earlier.
 
-1.  Once you are in the *project page*, click on *Applications* from the
+12.  Once you are in the *project page*, click on *Applications* from the
 left side of the menu and in the new menu that comes up, click on
 *Pods*.
 
-1.  Now you will be redirected to the *Pods page*. Click on the pod with
+13.  Now you will be redirected to the *Pods page*. Click on the pod with
 status as running.
 
-1.  Now you will be directed to the *Details blade* of the selected Pod.
+14.  Now you will be directed to the *Details blade* of the selected Pod.
 
-1.  From the details blade, copy the *Private Ip* of the node in which
+15.  From the details blade, copy the *Private Ip* of the node in which
 the Pod is running.
 
-1.  Now, *Open* a new tab in a browser and *Navigate* to
+16.  Now, *Open* a new tab in a browser and *Navigate* to
 https://portal.azure.com. *Login* with the Microsoft Azure credentials
 you received via email.
 
-1.  *Click* on *Cloud Shell* at the top right corner of the screen, to
+17.  *Click* on *Cloud Shell* at the top right corner of the screen, to
 open the cloud shell.
 
-1.  Now the *bash shell* will open up.
+18.  Now the *bash shell* will open up.
 
-1.  Now *execute* the following command. When promted, type *Yes* and
+19.  Now *execute* the following command. When promted, type *Yes* and
 you will be logged in to the OpenShift Master VM.
 
 ....
@@ -105,7 +106,7 @@ ssh ocpadmin@<copiedDNSNameofBastionVM>
 Note: Substitute in the above command with the value of copied DNS Name of Bastion VM 
 ....
 
-1.  Now *execute* the following command in the cloud shell to pull a
+20.  Now *execute* the following command in the cloud shell to pull a
 *docker image*. Copy the key into a text editor for later use.
 
 ....
@@ -116,31 +117,31 @@ ssh ocpadmin@<copiedPrivateIpOfNode>
 Note: Substitute in the above command with the value of copied Private IP Address of Node in which pod is running.
 ....
 
-1.  Now *execute* the following command in the cloud shell to *login* in
+21.  Now *execute* the following command in the cloud shell to *login* in
 to root account.
 
 ....
 sudo su -
 ....
 
-1.  Now *execute* the following command in the cloud shell to check if
+22.  Now *execute* the following command in the cloud shell to check if
 the *docker* is *installed and running*.
 
 ....
 docker -v 
 ....
 
-1.  Now *execute* the following command in the cloud shell to *display*
+23.  Now *execute* the following command in the cloud shell to *display*
 the list the *docker images* in the system.
 
 ....
 docker images
 ....
 
-1.  From the displayed results, *copy* the *Image name* with todoapp in
+24.  From the displayed results, *copy* the *Image name* with todoapp in
 the end.
 
-1.  Now *execute* the following command in the cloud shell to *tag* the
+25.  Now *execute* the following command in the cloud shell to *tag* the
 existing docker image.
 
 ....
@@ -151,7 +152,7 @@ docker tag <ImageName> <ACRLoginServerUri>/sample/todoapp
 Note:   Substitute for ImageName and ACR Login Server URI with the copied values in the above command
 ....
 
-1.  Now *execute* the following command in the cloud shell to *login to
+26.  Now *execute* the following command in the cloud shell to *login to
 docker registry*. When prompted, enter the *password* for ACR you copied
 earlier
 
@@ -163,7 +164,7 @@ docker login <acrServerLoginServerUri> -u <ACRUsername>
 Note: Substitute for ACR Login Server URI and Username in the above command
 ....
 
-1.  Now *execute* the following command in the cloud shell to *push* the
+27.  Now *execute* the following command in the cloud shell to *push* the
 tagged *image* to azure container Registry. Copy the key into a text
 editor for later use.
 
@@ -175,24 +176,24 @@ docker push <ACRLoginServerUri>/sample/todoapp
 Note: Substitute for ACRLoginServerUri in the above command
 ....
 
-1.  Once you have pushed the image to Azure Container Registry, click on
+28.  Once you have pushed the image to Azure Container Registry, click on
 *More services* on the left side of the menu on the dashboard.
 
-1.  In the new blade that come up, search in the Filter box at the top
+29.  In the new blade that come up, search in the Filter box at the top
 “Container registries” and then Select *Container Registries* from the
 search result.
 
-1.  On the blade, select the *Container Registry* which you have
+30.  On the blade, select the *Container Registry* which you have
 created.
 
-1.  Now you will be directed to the *Overview page* of the container
+31.  Now you will be directed to the *Overview page* of the container
 registry.
 
-1.  Now to check whether the image has been pushed to the repository,
+32.  Now to check whether the image has been pushed to the repository,
 you can click on *Repositories* under Services on the menu on left side
 of the blade.
 
-1.  In the next blade that come up, if the push has been *successful*,
+33.  In the next blade that come up, if the push has been *successful*,
 you can see sample/todapp repository there.
 
 link:/docs/Lab%2003.md[<Previous] / link:/docs/Lab%2005.md[Next>]
