@@ -60,14 +60,11 @@ the notifications tab.
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/109dep_status.jpg[]
 
-1. Now you will be directed to the deployed container registry. Click
-on the *Access keys* under Settings section which is on the left side of
-the blade.
+1. Now you will be directed to the deployed container registry. Click on the *Access keys* under Settings section which is on the left side of the blade.
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/110acr_accesskey.jpg[]
 
-1. Now you will be directed to the *Access keys* blade. Copy the
-*Registry name*, *Login server*, *Username* and *password* to a text editor for later use.
+1. Now you will be directed to the *Access keys* blade. Copy the *Registry name*, *Login server*, *Username* and *password* to a text editor for later use.
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/111acr_copy.jpg[]
 
@@ -139,8 +136,7 @@ the *docker* is *installed and running*.
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/124openshift_cmnd.jpg[]
 
-1. Now *execute* the following command in the cloud shell to *display*
-the list the *docker images* in the system.
+1. Now *execute* the following command in the cloud shell to *display* the list the *docker images* in the system.
 
     docker images
 
@@ -190,8 +186,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/132select_acr.jpg[]
 
-1. Now you will be directed to the *Overview page* of the container
-registry.
+1. Now you will be directed to the *Overview page* of the container registry.
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/133overview_acr.jpg[]
 
