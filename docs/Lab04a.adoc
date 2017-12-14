@@ -27,23 +27,23 @@ Exercise 00: Integrate ACR with OpenShift
 In this exercise, you will deploy an Azure Container Registry and
 integrate it with OpenShift.
 
-1.  *Launch* a browser and *Navigate* to https://portal.azure.com[Azure
+1. *Launch* a browser and *Navigate* to https://portal.azure.com[Azure
 Portal]. *Login* with the Microsoft Azure credentials you received via
 email.
-1.  Click on *+New* on the left side of the Dashboard.
+1. Click on *+New* on the left side of the Dashboard.
 
-image:https://github.com/SpektraSystems/openshift-container-platform/blob/master/images/104az_new.jpg[Az New]
+image:https://github.com/SpektraSystems/openshift-container-platform/blob/master/images/104az_new.jpg[]
 
-1.  In the *New* blade that come up, Select *Containers*.
+1. In the *New* blade that come up, Select *Containers*.
 
-image:https://github.com/SpektraSystems/openshift-container-platform/blob/master/images/105az_containers.jpg[Az New]
+image:https://github.com/SpektraSystems/openshift-container-platform/blob/master/images/105az_containers.jpg[]
 
-1.  In the *Containers* blade appears. Select *Azure Container
+1. In the *Containers* blade appears. Select *Azure Container
 Registry*.
 
-image:https://github.com/SpektraSystems/openshift-container-platform/blob/master/images/106acr.jpg[Az New]
+image:https://github.com/SpektraSystems/openshift-container-platform/blob/master/images/106acr.jpg[]
 
-1.  In the *create* blade that come up, *configure* the settings as
+1. In the *create* blade that come up, *configure* the settings as
 follows:
 
 * Registry name : *uniquename* (This name should be unique across
