@@ -130,9 +130,7 @@ open the cloud shell.
 1.  Now *execute* the following command. When promted, type *Yes* and
 you will be logged in to the OpenShift Master VM.
 
-
     ssh ocpadmin@<copiedDNSNameofBastionVM>
-
 
     Note: Substitute in the above command with the value of copied DNS Name of Bastion VM 
 
@@ -141,40 +139,30 @@ you will be logged in to the OpenShift Master VM.
 1.  Now *execute* the following command in the cloud shell to pull a
 *docker image*. Copy the key into a text editor for later use.
 
-....
-ssh ocpadmin@<copiedPrivateIpOfNode>
-....
+    ssh ocpadmin@<copiedPrivateIpOfNode>
 
-....
-Note: Substitute in the above command with the value of copied Private IP Address of Node in which pod is running.
-....
+    Note: Substitute in the above command with the value of copied Private IP Address of Node in which pod is running.
 
 * image:https://github.com/SpektraSystems/openshift-container-platform/blob/master/images/122openshift_cmnd.jpg[]
 
 1.  Now *execute* the following command in the cloud shell to *login* in
 to root account.
 
-....
-sudo su -
-....
+    sudo su -
 
 * image:https://github.com/SpektraSystems/openshift-container-platform/blob/master/images/123openshift_cmnd.jpg[]
 
 1.  Now *execute* the following command in the cloud shell to check if
 the *docker* is *installed and running*.
 
-....
-docker -v 
-....
+    docker -v 
 
 * image:https://github.com/SpektraSystems/openshift-container-platform/blob/master/images/124openshift_cmnd.jpg[]
 
 1.  Now *execute* the following command in the cloud shell to *display*
 the list the *docker images* in the system.
 
-....
-docker images
-....
+    docker images
 
 * image:https://github.com/SpektraSystems/openshift-container-platform/blob/master/images/125openshift_cmnd.jpg[]
 
@@ -186,13 +174,12 @@ the end.
 1.  Now *execute* the following command in the cloud shell to *tag* the
 existing docker image.
 
-....
-docker tag <ImageName> <ACRLoginServerUri>/sample/todoapp
-....
+    docker tag <ImageName> <ACRLoginServerUri>/sample/todoapp
 
-....
-Note:   Substitute for ImageName and ACR Login Server URI with the copied values in the above command
-....
+
+
+    Note: Substitute for ImageName and ACR Login Server URI with the copied values in the above command
+
 
 * image:https://github.com/SpektraSystems/openshift-container-platform/blob/master/images/127openshift_cmnd.jpg[]
 
@@ -200,20 +187,16 @@ Note:   Substitute for ImageName and ACR Login Server URI with the copied values
 docker registry*. When prompted, enter the *password* for ACR you copied
 earlier
 
-....
-docker login <acrServerLoginServerUri> -u <ACRUsername>
-....
+    docker login <acrServerLoginServerUri> -u <ACRUsername>
 
-....
-Note: Substitute for ACR Login Server URI and Username in the above command
-....
+    Note: Substitute for ACR Login Server URI and Username in the above command
+
 
 * image:https://github.com/SpektraSystems/openshift-container-platform/blob/master/images/128openshift_cmnd.jpg[]
 
 1.  Now *execute* the following command in the cloud shell to *push* the
 tagged *image* to azure container Registry. Copy the key into a text
 editor for later use.
-
 
     docker push <ACRLoginServerUri>/sample/todoapp
 
