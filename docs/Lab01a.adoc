@@ -73,7 +73,8 @@ In this exercise, you will log into the *Azure Portal* using your Azure credenti
 1. *Launch* a browser in InPrivate/Incognito mode and *Navigate* to https://portal.azure.com. Provide the credentials that you received via email. Click on *Sign In*."image:../images/3azure_login.jpg[Azure Login]
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/3azure_login1.jpg[Azure Login]
-```Note : At the first login, you may have to change the password, if asked for```
+
+    Note : At the first login, you may have to change the password, if asked for
 
 2. *Enter* a new *password*. Then select *Update password and sign in*. 
 +
@@ -81,7 +82,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 
 3. Now, you will be directed to the *Azure Dashboard*.
 +
-image:.https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/6azure_dashboard.jpg[Azure Dashboard]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/6azure_dashboard.jpg[Azure Dashboard]
 
 4. *Click* on *Microsoft Azure* at the top left corner of the screen, to view the Dashboard. 
 +
@@ -89,13 +90,16 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 
 5. To toggle *show/hide* the Portal menu options with icon, *Click* on the *Show Menu* button.
 +
-image:../images/8azure_menu.jpg[Azure Menu]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/8azure_menu.jpg[Azure Menu]
 
 6. *Click* on the *Resource groups* button in the *Menu navigation* bar to view the *Resource groups* blade.
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/9resourcegroup.jpg[Resource Group]
 
-7. You will see a *Resource Group* which you have access to, *click* on it. "image:../images/10select_rg.jpg[Select RG]
+7. You will see a *Resource Group* which you have access to, *click* on it.
++
+image:../images/10select_rg.jpg[Select RG]
+
 ....
 Note:
 The Resource Group shown here is for demo purpose only. Actual name of the Resouce Group that you see may differ.
@@ -149,11 +153,11 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 
 6.  You will be directed to the Azure Active Directory blade, *click* on *App registrations*.
 +
-image:../images/15app_reg.jpg[Resource Group]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/15app_reg.jpg[Resource Group]
 
 7.  In the next blade, *click* on *New Application Registration* on top of the blade.
 
-+image:../images/16new_appreg.jpg[Resource Group]
++image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/16new_appreg.jpg[Resource Group]
 
 8.  In the *Create* blade, *configure* as follows:
 * Name: *(Provide a unique value)*
@@ -168,7 +172,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 
 9.  You will be redirected to the *App registrations* blade. You can check the app has been created by typing the App Name in the search field.
 +
-image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/18check_app.jpg[Resource Group]If the app has been created, you can see it in the results as shown above.
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/18check_app.jpg[Resource Group] +If the app has been created, you can see it in the results as shown above.
 
 10.  Click on the *app* you *created* and you will be directed to the App blade.
 
@@ -190,6 +194,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 14.  After you click on save, the *key value* will be displayed which is the Client Secret. *Copy* the value into the text editor where you saved the value of *Application Id* for later use.
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/22copy_key.jpg[Resource Group]
+
 ....
 Note:
 You will use the above app details for Azure Integration in Lab 02: Exercise 3
