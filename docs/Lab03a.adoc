@@ -122,7 +122,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 
 3.  Now, you need to *login* in to your *red hat account*(one which has license for OpenShift)
 +
-image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/83redhatlogin.jpg[]
 
 4.  Scroll down and click on *download*.
 5.  Once the file has been downloaded, you will need to *extract* the
