@@ -173,7 +173,6 @@ In this exercise, you will learn how to create a new project on OpenShift and ho
 1. Create an *OpenShift project* by running below command.
 1. Now you can see the *project* is created successfully.
 
-....
 oc get projects
 ....
 
