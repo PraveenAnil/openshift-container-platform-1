@@ -299,6 +299,9 @@ below.
 ....
 oc get pods
 ....
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/93delete.jpg[]
+
 8. Now, add a *route* to expose that service, Run the following command
 given below.
 
