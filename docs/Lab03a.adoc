@@ -228,7 +228,7 @@ In this exercise, you will learn how to create an *application* from a
 Dockerfile. OpenShift takes Dockerfile as an input and generates your
 application docker image for you.
 
-1.  You can create a new *project* or use *existing project* that
+1. You can create a new *project* or use *existing project* that
 created in exercise 3. To make sure you have the existing project run
 the following command.
 
