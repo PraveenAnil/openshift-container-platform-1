@@ -232,7 +232,7 @@ application docker image for you.
 created in exercise 3. To make sure you have the existing project run
 the following command.
 
-1.  Now, we are using the Dockerfile as the basis to create a *docker
+2.  Now, we are using the Dockerfile as the basis to create a *docker
 image* for application. Run the command is given below.
 
 ....
