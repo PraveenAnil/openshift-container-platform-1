@@ -194,7 +194,6 @@ following command.
 
 1. Now add a route to the service with the following command.
 
-....
 oc expose service welcome --name=welcomehost 
 ....
 
