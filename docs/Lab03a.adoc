@@ -290,8 +290,7 @@ below.
 ....
 oc get pods
 ....
-
-1.  Now, add a *route* to expose that service, Run the following command
+8.  Now, add a *route* to expose that service, Run the following command
 given below.
 
 ....
