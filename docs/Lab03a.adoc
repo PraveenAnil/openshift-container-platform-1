@@ -179,7 +179,6 @@ In this exercise, you will learn how to create a new project on OpenShift and ho
 following command.
 
 oc status
-....
 
 1.  Create new *application* using below command
 
