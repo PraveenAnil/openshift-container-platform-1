@@ -156,6 +156,9 @@ In this exercise, you will deploy the **OpenShift cluster** on Azure using ARM T
 
 1.  Now **click** on **Deploy to Azure** button and you will be redirected to the azure portal. If prompted **login** with the Microsoft Azure credentials you received via email.
 +
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FSpektraSystems%2Fopenshift-container-platform%2Fmaster%2Fazuredeploy.json">
+  <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png" alt="Deplot To Azure">
+</a>
 [#Deploy_To_Azure]
 .Deploy To Azure[link=https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FSpektraSystems%2Fopenshift-container-platform%2Fmaster%2Fazuredeploy.json]image::https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png[]
 
