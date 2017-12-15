@@ -303,7 +303,7 @@ oc get services
 oc expose service time
 ....
 
-1.  Now, we check whether the *route* is exposed.
+10.  Now, we check whether the *route* is exposed.
 
 ....
 oc get routes
