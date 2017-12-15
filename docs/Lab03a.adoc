@@ -245,7 +245,7 @@ oc new-app https://github.com/RedHatWorkshops/time --context-dir=rhel
 oc get bc time -o json
 ....
 
-1.  To view the list of *build*, run command given below.
+4.  To view the list of *build*, run command given below.
 
 ....
 oc get builds
