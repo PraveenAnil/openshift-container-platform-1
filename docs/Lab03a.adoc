@@ -42,7 +42,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 
 2.  Click on *+New* on the left side of the Dashboard.
 +
-image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/104az_new.jpg[]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/71new.jpg[]
 
 3.  In the *New* blade that come up, Select *Databases*.
 +
