@@ -134,8 +134,7 @@ OS X: **~/OpenShift** Linux: **~/OpenShift**
 
     $ tar zxvf <File_Name>
 
-*Linux* : Open a terminal window and change to the directory where you
-downloaded the file. Once you are in the directory, enter in the
+*Linux* : Open a terminal window and change to the directory where you downloaded the file. Once you are in the directory, enter in the
 following command:
 +
 ....
