@@ -182,7 +182,7 @@ following command.
 
 1.  Create new *application* using below command
 
-oc new-app redhatworkshops/welcome-php --name=welcome
+    oc new-app redhatworkshops/welcome-php --name=welcome
 ....
 
 1.  The above command uses the *docker image* to deploy a docker
