@@ -235,6 +235,8 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 
 2. Now, we are using the Dockerfile as the basis to create a *docker
 image* for application. Run the command is given below.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/93delete.jpg[]
 
 ....
 oc new-app https://github.com/RedHatWorkshops/time --context-dir=rhel
