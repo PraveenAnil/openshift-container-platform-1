@@ -48,7 +48,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/72newdatabase.jpg[]
 
-4.  In the *Databases* blade appears. Select *Azure Cosmos DB*
+4. In the *Databases* blade appears. Select *Azure Cosmos DB*
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/73cosmosdb.jpg[]
 
