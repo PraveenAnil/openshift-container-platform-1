@@ -70,7 +70,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/76dep_status.jpg[]
 
-8.  Now you will be directed to the deployed database.
+8. Now you will be directed to the deployed database.
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/77database.jpg[]
 
