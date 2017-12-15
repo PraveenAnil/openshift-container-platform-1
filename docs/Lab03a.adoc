@@ -308,6 +308,8 @@ given below.
 ....
 oc get services
 ....
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/93delete.jpg[]
 
 9. Now, we *expose* the service as a route.
 
