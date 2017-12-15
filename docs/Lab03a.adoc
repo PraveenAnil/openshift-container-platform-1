@@ -129,12 +129,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 *contents* of the same at below directories. Windows: **C:\OpenShift**
 OS X: **~/OpenShift** Linux: **~/OpenShift**
 +
-*Windows* : To extract a zip archive on windows, you will need a zip
-utility installed on your system. With newer versions of windows
-(greater than XP), this is provided by the operating system. Just right
-click on the downloaded file using file explorer and select to extract
-the contents to
-+
+*Windows* : To extract a zip archive on windows, you will need a zip utility installed on your system. With newer versions of windows (greater than XP), this is provided by the operating system. Just right click on the downloaded file using file explorer and select to extract the contents to
 *OS X* : Open a terminal window and change to the directory where you downloaded the file. Once you are in the directory, enter in the following command:
 
     $ tar zxvf <File_Name>
