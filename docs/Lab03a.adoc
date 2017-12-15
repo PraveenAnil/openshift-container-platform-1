@@ -198,8 +198,7 @@ oc expose service welcome --name=welcomehost
 
 1.  Now go to your *OpenShift platform* and click on applications>hostname, you can access the *application* from the browser and see the result.
 
-1.  To view all the *components* that were created in your *project*,
-run the command given below.
+1.  To view all the *components* that were created in your *project*, run the command given below.
 
 ....
 oc get all
