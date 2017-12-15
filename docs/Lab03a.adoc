@@ -81,7 +81,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 
 10. Now from the new blade that come up, *copy* the connection string for later use.
 +
-image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/104az_new.jpg[]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/79copy_connstring.jpg[]
 
 11. Now, open a new tab in a broswer and *navigate* to the *OpenShift console url*. *Login* into the OpenShift console using the *credentials* you *received via email* by Selecting AzureAD as authentication type.
 +
