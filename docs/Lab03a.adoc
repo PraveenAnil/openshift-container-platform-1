@@ -297,7 +297,7 @@ given below.
 oc get services
 ....
 
-9.  Now, we *expose* the service as a route.
+9. Now, we *expose* the service as a route.
 
 ....
 oc expose service time
