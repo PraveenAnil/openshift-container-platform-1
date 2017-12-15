@@ -189,6 +189,9 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 6. The above command uses the *docker image* to deploy a docker container in a pod. you will notice that a deployed pod runs and it starts an application pod as shown below.
 
     oc get pods
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/84check_version.jpg[]
+
 7. To view the list of *services* in the project, run the following command
 
     oc get services
