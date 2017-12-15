@@ -56,8 +56,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 * ID : *uniquename* (This name should be unique across Azure.)
 * API : *MongoDB*
 * Subscription : Select the *existing* subscription
-* Resource Group : Choose *existing* and scroll down to see the Resource
-Group which is already there and select that)
+* Resource Group : Choose *existing* and scroll down to see the Resource Group which is already there and select that)
 * Location: *(Select Resource Group Region)* 
 * Click on *Create*.
 +
