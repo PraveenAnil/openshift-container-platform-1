@@ -85,7 +85,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 
 11. Now, open a new tab in a broswer and *navigate* to the *OpenShift console url*. *Login* into the OpenShift console using the *credentials* you *received via email* by Selecting AzureAD as authentication type.
 +
-image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/104az_new.jpg[]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/80openshift_console.jpg[]
 
 [[exercise-01-installing-openshift-cli]]
 Exercise 01: Installing OpenShift CLI
