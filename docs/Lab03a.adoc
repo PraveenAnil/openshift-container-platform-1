@@ -77,7 +77,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 
 9.  Now, click on *Connection String* under settings menu on the left side of the blade.
 +
-image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/104az_new.jpg[]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/78conn_string.jpg[]
 
 10. Now from the new blade that come up, *copy* the connection string for later use.
 +
