@@ -190,7 +190,6 @@ following command.
 
 1. To view the list of *services* in the project, run the following command
 
-....
 oc get services
 ....
 
