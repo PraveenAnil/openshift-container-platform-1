@@ -40,7 +40,7 @@ configure it to use the DB on Azure.
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/43az_dashboard.jpg[]
 
-2.  Click on *+New* on the left side of the Dashboard.
+2. Click on *+New* on the left side of the Dashboard.
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/71new.jpg[]
 
