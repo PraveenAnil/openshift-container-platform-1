@@ -33,8 +33,7 @@ Time Estimate
 Exercise 00: Deploy a 2 Tier Node JS Application on OpenShift
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In this exercise, you will deploy a 2 tier Node.js app on OpenShift and
-configure it to use the DB on Azure.
+In this exercise, you will deploy a 2 tier Node.js app on OpenShift and configure it to use the DB on Azure.
 
 1. *Launch* a browser and *Navigate* to https://portal.azure.com. *Login* with the Microsoft Azure credentials you received via email.
 +
