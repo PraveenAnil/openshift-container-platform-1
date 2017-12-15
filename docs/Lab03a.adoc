@@ -182,7 +182,6 @@ following command.
 
 1.  Create new *application* using below command
 
-....
 oc new-app redhatworkshops/welcome-php --name=welcome
 ....
 
