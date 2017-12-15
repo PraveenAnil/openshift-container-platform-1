@@ -62,7 +62,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/74cosmosdb_create.jpg[]
 
-6.  You can see the *status* of the *deployment* from the *notifications* icon on top of the page.
+6. You can see the *status* of the *deployment* from the *notifications* icon on top of the page.
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/75notification.jpg[]
 
