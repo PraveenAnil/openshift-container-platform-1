@@ -168,7 +168,6 @@ In this exercise, you will learn how to create a new project on OpenShift and ho
 
 1. Launch the command line and run below command and enter *username* and *password* as you have received in your lab mail.
 
-....
 oc login <URL of OpenShift:8443>
 ....
 
