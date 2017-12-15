@@ -263,6 +263,8 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 ....
 oc  logs build/time-1 
 ....
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/93delete.jpg[]
 
 6. Now, we will do *deployment configuration* by running the following
 command.
