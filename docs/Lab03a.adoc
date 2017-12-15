@@ -142,7 +142,7 @@ Linux: **~/OpenShift**
 
 *Linux* : Open a terminal window and change to the directory where you downloaded the file. Once you are in the directory, enter in the following command:
 
-$ tar zxvf <File_Name>
+    $ tar zxvf <File_Name>
 ....
 6.  Now you will need to add *oc* to your system’s environment variable
 path: *Windows* : Open Command prompt and run below command:
