@@ -132,6 +132,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/29create_keyvault_bash.jpg[]
 
 7.  Now *execute* the following command in the *cloud shell* to **generate ssh key.
+    
     ssh-keygen
     Note: Keep on clicking enter button until the key has been created. 
 +
@@ -141,7 +142,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 
     cat .ssh/id_rsa.pub
     Note: The copied SSH Key should be made into a single line. You will need this key for later use.
- +
++
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/31display_publickey.jpg[]
 
 9.  Now **execute** the following command to **store** the generated key in the key vault.
