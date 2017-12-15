@@ -74,7 +74,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/77database.jpg[]
 
-9.  Now, click on *Connection String* under settings menu on the left side of the blade.
+9. Now, click on *Connection String* under settings menu on the left side of the blade.
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/78conn_string.jpg[]
 
