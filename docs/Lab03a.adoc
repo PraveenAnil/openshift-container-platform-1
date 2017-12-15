@@ -316,6 +316,8 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 ....
 oc expose service time
 ....
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/93delete.jpg[]
 
 10. Now, we check whether the *route* is exposed.
 
