@@ -228,33 +228,32 @@ In this exercise, you will learn how to create an *application* from a Dockerfil
 1. You can create a new *project* or use *existing project* that created in exercise 3. To make sure you have the existing project run
 the following command.
 +
-image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/93delete.jpg[]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/94openshift_cmnd.jpg[]
 
 2. Now, we are using the Dockerfile as the basis to create a *docker image* for application. Run the command is given below.
 
     oc new-app https://github.com/RedHatWorkshops/time --context-dir=rhel
-
 +
-image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/93delete.jpg[]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/95openshift_cmnd.jpg[]
 
 3. Now, look at the *buildconfig* by running the command shown below.
 
     oc get bc time -o json
 +
-image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/93delete.jpg[]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/96buildconfig.jpg[]
 
 4. To view the list of *build*, run command given below.
 
     oc get builds
 +
-image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/93delete.jpg[]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/97list_build.jpg[]
 
 5. Run the command as shown below to look at the *build logs*.
 
     oc logs build/time-1 
 
 +
-image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/93delete.jpg[]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/98build_logs.jpg[]
 
 6. Now, we will do *deployment configuration* by running the following
 command.
@@ -286,31 +285,29 @@ oc get dc -o json
 7. Now, you can get the *list of pods*, Run the following command given below.
 
     oc get pods
-
 +
-image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/93delete.jpg[]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/99list_pods.jpg[]
 
 8. Now, add a *route* to expose that service, Run the following command given below.
 
     oc get services
 +
-image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/93delete.jpg[]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/100expose_services.jpg[]
 
 9. Now, we *expose* the service as a route.
 
    oc expose service time
-
 +
-image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/93delete.jpg[]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/101expose_service_route.jpg[]
 
 10. Now, we check whether the *route* is exposed.
 
     oc get routes
 +
-image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/93delete.jpg[]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/102check_route.jpg[]
 
 11.  To run the *application*, copy the host/port and paste in browser and you can see the result.
 +
-image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/93delete.jpg[]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/103browser_result.jpg[]
 
 link:/docs/Lab02a.adoc[<Previous] / link:/docs/Lab04a.adoc[Next>]
