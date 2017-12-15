@@ -239,7 +239,7 @@ image* for application. Run the command is given below.
 oc new-app https://github.com/RedHatWorkshops/time --context-dir=rhel
 ....
 
-3.  Now, look at the *buildconfig* by running the command shown below.
+3. Now, look at the *buildconfig* by running the command shown below.
 
 ....
 oc get bc time -o json
