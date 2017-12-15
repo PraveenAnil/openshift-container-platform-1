@@ -324,8 +324,12 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 ....
 oc get routes
 ....
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/93delete.jpg[]
 
 11.  To run the *application*, copy the host/port and paste in browser
 and you can see the result.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/93delete.jpg[]
 
 link:/docs/Lab02a.adoc[<Previous] / link:/docs/Lab04a.adoc[Next>]
