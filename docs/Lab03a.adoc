@@ -125,8 +125,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/83redhatlogin.jpg[]
 
 4.  Scroll down and click on *download*.
-5.  Once the file has been downloaded, you will need to *extract* the
-*contents* of the same at below directories.
+5.  Once the file has been downloaded, you will need to *extract* the *contents* of the same at below directories.
 +
 Windows: **C:\OpenShift**
 +
@@ -139,7 +138,7 @@ Linux: **~/OpenShift**
 *OS X* : Open a terminal window and change to the directory where you downloaded the file. Once you are in the directory, enter in the following command:
 
     $ tar zxvf <File_Name>
-
++
 *Linux* : Open a terminal window and change to the directory where you downloaded the file. Once you are in the directory, enter in the following command:
 
     $ tar zxvf <File_Name>
@@ -148,7 +147,7 @@ Linux: **~/OpenShift**
 +*Windows* : Open Command prompt and run below command:
 
     set PATH=%PATH%;C:\OpenShift
-
++
 *OS X*: Open shell and run below command.
 
     $ export PATH=$PATH:~/OpenShift 
