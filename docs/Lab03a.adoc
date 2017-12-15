@@ -201,7 +201,6 @@ following command.
 1. To view all the *components* that were created in your *project*, run the command given below.
 
 oc get all
-....
 
 1.  Now you can *delete* all these *components* by running one command.
 
