@@ -309,7 +309,7 @@ oc expose service time
 oc get routes
 ....
 
-1.  To run the *application*, copy the host/port and paste in browser
+11.  To run the *application*, copy the host/port and paste in browser
 and you can see the result.
 
 link:/docs/Lab02a.adoc[<Previous] / link:/docs/Lab04a.adoc[Next>]
