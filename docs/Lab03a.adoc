@@ -165,46 +165,45 @@ In this exercise, you will learn how to create a new project on OpenShift and ho
 
     oc login <URL of OpenShift:8443>
 
-1. Create an *OpenShift project* by running below command.
+2. Create an *OpenShift project* by running below command.
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/84check_version.jpg[]
 
-1. Now you can see the *project* is created successfully.
+3. Now you can see the *project* is created successfully.
 
     oc get projects
 
-1. You can also check the *status* of the *project* by running the following command.
+4. You can also check the *status* of the *project* by running the following command.
 
     oc status
     
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/84check_version.jpg[]
 
-1. Create new *application* using below command
+5. Create new *application* using below command
 
     oc new-app redhatworkshops/welcome-php --name=welcome
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/84check_version.jpg[]
 
-1. The above command uses the *docker image* to deploy a docker container in a pod. you will notice that a deployed pod runs and it starts an application pod as shown below.
+6. The above command uses the *docker image* to deploy a docker container in a pod. you will notice that a deployed pod runs and it starts an application pod as shown below.
 
     oc get pods
-
-1. To view the list of *services* in the project, run the following command
+7. To view the list of *services* in the project, run the following command
 
     oc get services
 
-1. Now add a route to the service with the following command.
+8. Now add a route to the service with the following command.
 
     oc expose service welcome --name=welcomehost 
 
-1. Now go to your *OpenShift platform* and click on applications>hostname, you can access the *application* from the browser and see the result.
+9. Now go to your *OpenShift platform* and click on applications>hostname, you can access the *application* from the browser and see the result.
 
-1. To view all the *components* that were created in your *project*, run the command given below.
+10. To view all the *components* that were created in your *project*, run the command given below.
 
     oc get all
 
-1. Now you can *delete* all these *components* by running one command.
+11. Now you can *delete* all these *components* by running one command.
 
     oc get all --all
 
