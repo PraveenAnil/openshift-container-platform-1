@@ -164,8 +164,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 Exercise 02: Deployment in OpenShift using CLI
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In this exercise, you will learn how to create a new project on OpenShift and how to create an application from an existing docker
-image.
+In this exercise, you will learn how to create a new project on OpenShift and how to create an application from an existing docker image.
 
 1.  Launch the command line and run below command and enter *username*
 and *password* as you have received in your lab mail.
