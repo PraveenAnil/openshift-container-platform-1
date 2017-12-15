@@ -178,7 +178,6 @@ In this exercise, you will learn how to create a new project on OpenShift and ho
 1. You can also check the *status* of the *project* by running the
 following command.
 
-....
 oc status
 ....
 
