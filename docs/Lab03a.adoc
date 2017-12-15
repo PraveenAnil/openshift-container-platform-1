@@ -52,7 +52,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/73cosmosdb.jpg[]
 
-5.  In the *create* blade that come up, *configure* the *settings* as follows:
+5. In the *create* blade that come up, *configure* the *settings* as follows:
 * ID : *uniquename* (This name should be unique across Azure.)
 * API : *MongoDB*
 * Subscription : Select the *existing* subscription
