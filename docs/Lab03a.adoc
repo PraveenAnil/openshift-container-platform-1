@@ -147,7 +147,7 @@ Linux: **~/OpenShift**
 6.  Now you will need to add *oc* to your system’s environment variable path:
 +*Windows* : Open Command prompt and run below command:
 
-set PATH=%PATH%;C:\OpenShift
+    set PATH=%PATH%;C:\OpenShift
 
 *OS X*: Open shell and run below command.
 
