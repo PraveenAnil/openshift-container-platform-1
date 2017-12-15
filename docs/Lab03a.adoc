@@ -150,8 +150,8 @@ Linux: **~/OpenShift**
 +
 *OS X*: Open shell and run below command.
 
-    $ export PATH=$PATH:~/OpenShift 
- 
+    $ export PATH=$PATH:~/OpenShift
++
 *Linux* : Open shell and run below command.
 
     $ export PATH=$PATH:~/OpenShift
