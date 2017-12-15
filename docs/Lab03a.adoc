@@ -257,7 +257,7 @@ oc get builds
 oc  logs build/time-1 
 ....
 
-6.  Now, we will do *deployment configuration* by running the following
+6. Now, we will do *deployment configuration* by running the following
 command.
 
 ....
