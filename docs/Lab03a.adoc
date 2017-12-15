@@ -118,7 +118,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 
 2.  On *Command Line Tools* page, click on *Latest Release*.
 +
-image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/82cl_latestrelease.jpg[]
 
 3.  Now, you need to *login* in to your *red hat account*(one which has license for OpenShift)
 +
