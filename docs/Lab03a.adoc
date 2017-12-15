@@ -36,11 +36,22 @@ Exercise 00: Deploy a 2 Tier Node JS Application on OpenShift
 In this exercise, you will deploy a 2 tier Node.js app on OpenShift and
 configure it to use the DB on Azure.
 
-1.  *Launch* a browser and *Navigate* to https://portal.azure.com.
-*Login* with the Microsoft Azure credentials you received via email.
+1.  *Launch* a browser and *Navigate* to https://portal.azure.com. *Login* with the Microsoft Azure credentials you received via email.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/43az_dashboard.jpg[]
+
 2.  Click on *+New* on the left side of the Dashboard.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/104az_new.jpg[]
+
 3.  In the *New* blade that come up, Select *Databases*.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/104az_new.jpg[]
+
 4.  In the *Databases* blade appears. Select *Azure Cosmos DB*
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/104az_new.jpg[]
+
 5.  In the *create* blade that come up, *configure* the *settings* as
 follows:
 * ID : *uniquename* (This name should be unique across Azure.)
@@ -48,19 +59,34 @@ follows:
 * Subscription : Select the *existing* subscription
 * Resource Group : Choose *existing* and scroll down to see the Resource
 Group which is already there and select that)
-* Location: *(Select Resource Group Region)* And then Click on *Create*.
-6.  You can see the *status* of the *deployment* from the
-*notifications* icon on top of the page.
-7.  Once the deployment is *successful*, click on *Go to resource* from
-the notifications tab.
+* Location: *(Select Resource Group Region)* 
+* Click on *Create*.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/104az_new.jpg[]
+
+6.  You can see the *status* of the *deployment* from the *notifications* icon on top of the page.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/104az_new.jpg[]
+
+7.  Once the deployment is *successful*, click on *Go to resource* from the notifications tab.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/104az_new.jpg[]
+
 8.  Now you will be directed to the deployed database.
-9.  Now, click on *Connection String* under settings menu on the left
-side of the blade.
-10. Now from the new blade that come up, *copy* the connection string
-for later use.
-11. Now, open a new tab in a broswer and *navigate* to the *OpenShift
-console url*. *Login* into the OpenShift console using the *credentials*
-you *received via email* by Selecting AzureAD as authentication type.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/104az_new.jpg[]
+
+9.  Now, click on *Connection String* under settings menu on the left side of the blade.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/104az_new.jpg[]
+
+10. Now from the new blade that come up, *copy* the connection string for later use.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/104az_new.jpg[]
+
+11. Now, open a new tab in a broswer and *navigate* to the *OpenShift console url*. *Login* into the OpenShift console using the *credentials* you *received via email* by Selecting AzureAD as authentication type.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/104az_new.jpg[]
 
 [[exercise-01-installing-openshift-cli]]
 Exercise 01: Installing OpenShift CLI
