@@ -204,7 +204,7 @@ following command.
 
 1. Now you can *delete* all these *components* by running one command.
 
-oc get all --all
+    oc get all --all
 
 [[exercise-03-create-an-app-using-docker-build]]
 Exercise 03: Create an App using Docker build
