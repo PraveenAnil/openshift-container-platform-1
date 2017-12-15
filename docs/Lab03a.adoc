@@ -159,7 +159,7 @@ Linux: **~/OpenShift**
 
 7.  Now run below command on shell/command prompt to check the *version* of OpenShift client an to verify that it is successfully configured.
 +
-image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/84check_version.jpg[]
 
 [[exercise-02-deployment-in-openshift-using-cli]]
 Exercise 02: Deployment in OpenShift using CLI
