@@ -114,7 +114,7 @@ line tools* page on the web console.
 
 1.  Click on down arrow key as shown in below screenshot and click on *Command Line Tools*.
 +
-image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/81cl_tools.jpg[]
 
 2.  On *Command Line Tools* page, click on *Latest Release*.
 +
