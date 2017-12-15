@@ -148,7 +148,6 @@ Linux: **~/OpenShift**
 +*Windows* : Open Command prompt and run below command:
 
 set PATH=%PATH%;C:\OpenShift
-....
 
 *OS X*: Open shell and run below command.
 
