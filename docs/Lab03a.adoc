@@ -73,7 +73,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 
 8.  Now you will be directed to the deployed database.
 +
-image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/104az_new.jpg[]
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/77database.jpg[]
 
 9.  Now, click on *Connection String* under settings menu on the left side of the blade.
 +
