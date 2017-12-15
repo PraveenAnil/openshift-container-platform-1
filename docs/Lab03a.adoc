@@ -44,7 +44,7 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/71new.jpg[]
 
-3.  In the *New* blade that come up, Select *Databases*.
+3. In the *New* blade that come up, Select *Databases*.
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/72newdatabase.jpg[]
 
