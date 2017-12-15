@@ -190,7 +190,7 @@ following command.
 
 1. To view the list of *services* in the project, run the following command
 
-oc get services
+    oc get services
 ....
 
 1.  Now add a route to the service with the following command.
