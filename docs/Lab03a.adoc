@@ -204,7 +204,6 @@ following command.
 
 1. Now you can *delete* all these *components* by running one command.
 
-....
 oc get all --all
 ....
 
