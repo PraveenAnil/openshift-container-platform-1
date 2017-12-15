@@ -112,11 +112,18 @@ Installing the CLI
 The easiest way to *download* the *CLI* is by accessing the *Command
 line tools* page on the web console.
 
-1.  Click on down arrow key as shown in below screenshot and click on
-*Command Line Tools*.
+1.  Click on down arrow key as shown in below screenshot and click on *Command Line Tools*.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
+
 2.  On *Command Line Tools* page, click on *Latest Release*.
-3.  Now, you need to *login* in to your *red hat account*(one which has
-license for OpenShift)
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
+
+3.  Now, you need to *login* in to your *red hat account*(one which has license for OpenShift)
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
+
 4.  Scroll down and click on *download*.
 5.  Once the file has been downloaded, you will need to *extract* the
 *contents* of the same at below directories. Windows: **C:\OpenShift**
@@ -152,18 +159,15 @@ set PATH=%PATH%;C:\OpenShift
 
 *OS X*: Open shell and run below command.
 
-....
-$ export PATH=$PATH:~/OpenShift 
-....
-
+    $ export PATH=$PATH:~/OpenShift 
+ 
 *Linux* : Open shell and run below command.
 
-....
-$ export PATH=$PATH:~/OpenShift
-....
+    $ export PATH=$PATH:~/OpenShift
 
-1.  Now run below command on shell/command prompt to check the *version*
-of OpenShift client an to verify that it is successfully configured.
+7.  Now run below command on shell/command prompt to check the *version* of OpenShift client an to verify that it is successfully configured.
++
+image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/[]
 
 [[exercise-02-deployment-in-openshift-using-cli]]
 Exercise 02: Deployment in OpenShift using CLI
