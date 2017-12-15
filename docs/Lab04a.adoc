@@ -198,4 +198,4 @@ image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platf
 +
 image:https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master/images/135repositoriesview.jpg[]
 
-link:/docs/Lab04a.adoc[<Previous] / link:/docs/Lab05a.adoc[Next>]
+link:/docs/Lab03a.adoc[<Previous] / link:/docs/Lab05a.adoc[Next>]
