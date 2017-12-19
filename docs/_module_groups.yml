@@ -2,6 +2,7 @@
 training:
   name: AEC Lab guide 
   modules:
+    - creds
     - Lab01a
     - Lab02a
     - Lab03a
