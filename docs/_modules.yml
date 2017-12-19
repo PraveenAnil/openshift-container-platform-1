@@ -14,6 +14,8 @@ config:
       value: <url>
       
 modules:
+  creds:
+    name: Credentials
   Lab01a:
     name: Lab 1
     vars:
