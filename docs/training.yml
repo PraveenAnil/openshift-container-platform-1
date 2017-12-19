@@ -10,6 +10,10 @@ vars:
   USER_PASSWORD: "(email)"
   GIT_HOST: github
   DOCS_URL: docs.spektrasystems.com
+  aadUsername: "username"
+  aadPassword: "password"
+  appID: "appid"
+  appSecret: "appsecret"
 
 modules:
   activate:
