@@ -16,6 +16,11 @@ config:
 modules:
   creds:
     name: Credentials
+    vars:
+      aadUsername: "username"
+      aadPassword: "password"
+      appID: "appid"
+      appSecret: "appsecret"
   Lab01a:
     name: Lab 1
     vars:
