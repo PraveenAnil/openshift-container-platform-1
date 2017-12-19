@@ -13,6 +13,7 @@ vars:
 
 modules:
   activate:
+  - creds
   - Lab01a
   - Lab02a
   - Lab03a
